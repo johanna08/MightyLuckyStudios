@@ -1,7 +1,7 @@
 {
-  "name": "mighty-lucky-studios",
+  "name": "mighty-lucky-studio",
   "version": "1.0.0",
-  "description": "Mighty Lucky Studios",
+  "description": "Mighty Lucky Studio",
   "scripts": {
     "start": "webpack -d --watch & live-server --entry-file=404.html"
   },
