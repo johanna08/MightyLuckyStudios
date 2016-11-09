@@ -1,1 +1,1 @@
-An art studio's website
+A photo studio's website
