@@ -13,4 +13,11 @@ a {
 body {
   font-size: 13px;
   line-height: 20px;
+  background: url('../images/mls1.jpg') center no-repeat,
+  height: 100vh;
+  width: 100vw;
+}
+
+#app {
+  height: 100vh;
 }

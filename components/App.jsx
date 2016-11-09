@@ -18,11 +18,11 @@ const styles = {
     fontFamily: "'Roboto', sans-serif",
   },
   landing: {
-    background: "url('https://static.wixstatic.com/media/1c692c_aca72c9db50942ada0f7f0a816bcb5f2.jpg/v1/fill/w_2054,h_615,al_c,q_90,usm_0.66_1.00_0.01/1c692c_aca72c9db50942ada0f7f0a816bcb5f2.jpg') center no-repeat",
+    
     backgroundSize: 'cover',
     color: 'white',
     paddingTop: 150,
-    paddingBottom: 15,
+    paddingBottom: 15
   },
   icon: {
     fontSize: 36,
@@ -38,7 +38,7 @@ function App() {
     <MuiThemeProvider muiTheme={muiTheme}>
       <div style={styles.container}>
         <div style={styles.landing}>
-          <p style={styles.text}>Johanna Perez</p>
+          <p style={styles.text}>Mighty Lucky Studios</p>
           <a href="https://github.com/johanna08" target="_blank">
             <FontIcon
               className="fa fa-github"
