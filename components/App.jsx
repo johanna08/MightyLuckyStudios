@@ -49,7 +49,7 @@ function App() {
               color={grey50}
               hoverColor={grey800}
             /></a>
-          <a href="https://goo.gl/maps/hkaEWG2oawz" target="_blank">
+          <a href="https://goo.gl/maps/Jto6Rk33Zvp" target="_blank">
             <FontIcon
               className="fa fa-map-marker"
               style={styles.icon}
