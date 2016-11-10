@@ -17,5 +17,6 @@ body {
   height: 100vh;
 }
 
-[data-reactroot] 
-        {height: 100vh !important; }
+[data-reactroot] {
+  height: 100vh !important; 
+}
