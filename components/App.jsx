@@ -3,7 +3,7 @@ import FlatButton from 'material-ui/FlatButton';
 import FontIcon from 'material-ui/FontIcon';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import { blueGrey500, grey400, grey50 } from 'material-ui/styles/colors';
+import { blueGrey500, grey800, grey50 } from 'material-ui/styles/colors';
 
 const muiTheme = getMuiTheme({
   palette: {
@@ -15,21 +15,21 @@ const styles = {
   container: {
     textAlign: 'center',
     fontSize: 20,
-    fontFamily: "'Roboto', sans-serif",
+    background: "url('/images/mls2.jpg') center / cover",
   },
   landing: {
-    background: "url('https://static.wixstatic.com/media/1c692c_aca72c9db50942ada0f7f0a816bcb5f2.jpg/v1/fill/w_2054,h_615,al_c,q_90,usm_0.66_1.00_0.01/1c692c_aca72c9db50942ada0f7f0a816bcb5f2.jpg') center no-repeat",
-    backgroundSize: 'cover',
     color: 'white',
-    paddingTop: 150,
-    paddingBottom: 15
+    paddingTop: 250,
   },
   icon: {
     fontSize: 36,
     padding: 5,
   },
+  icons: {
+    paddingTop: 200,
+  },
   text: {
-    fontSize: 30,
+    fontSize: 45,
   },
 };
 
@@ -38,21 +38,30 @@ function App() {
     <MuiThemeProvider muiTheme={muiTheme}>
       <div style={styles.container}>
         <div style={styles.landing}>
-          <p style={styles.text}>Mighty Lucky Studios</p>
-          <a href="https://github.com/johanna08" target="_blank">
+          <p style={styles.text}>Mighty Lucky Studio</p>
+          <div style={styles.icons}>
+          <a href="https://www.facebook.com/mightyluckystudio" target="_blank">
             <FontIcon
-              className="fa fa-github"
+              className="fa fa-facebook"
               style={styles.icon}
               color={grey50}
-              hoverColor={grey400}
+              hoverColor={grey800}
             /></a>
-          <a href="https://www.linkedin.com/in/johanna-perez" target="_blank">
+          <a href="https://www.instagram.com/mightyluckystudio" target="_blank">
             <FontIcon
-              className="fa fa-linkedin"
+              className="fa fa-instagram"
               style={styles.icon}
               color={grey50}
-              hoverColor={grey400}
+              hoverColor={grey800}
             /></a>
+          <a href="https://goo.gl/maps/hkaEWG2oawz" target="_blank">
+            <FontIcon
+              className="fa fa-map-marker"
+              style={styles.icon}
+              color={grey50}
+              hoverColor={grey800}
+            /></a>
+            </div>
         </div>
       </div>
     </MuiThemeProvider>

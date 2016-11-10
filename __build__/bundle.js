@@ -28965,21 +28965,21 @@
 	  container: {
 	    textAlign: 'center',
 	    fontSize: 20,
-	    fontFamily: "'Roboto', sans-serif"
+	    background: "url('/images/mls2.jpg') center / cover"
 	  },
 	  landing: {
-	    background: "url('https://static.wixstatic.com/media/1c692c_aca72c9db50942ada0f7f0a816bcb5f2.jpg/v1/fill/w_2054,h_615,al_c,q_90,usm_0.66_1.00_0.01/1c692c_aca72c9db50942ada0f7f0a816bcb5f2.jpg') center no-repeat",
-	    backgroundSize: 'cover',
 	    color: 'white',
-	    paddingTop: 150,
-	    paddingBottom: 15
+	    paddingTop: 250
 	  },
 	  icon: {
 	    fontSize: 36,
 	    padding: 5
 	  },
+	  icons: {
+	    paddingTop: 200
+	  },
 	  text: {
-	    fontSize: 30
+	    fontSize: 45
 	  }
 	};
 	
@@ -28996,27 +28996,41 @@
 	        _react2.default.createElement(
 	          'p',
 	          { style: styles.text },
-	          'Mighty Lucky Studios'
+	          'Mighty Lucky Studio'
 	        ),
 	        _react2.default.createElement(
-	          'a',
-	          { href: 'https://github.com/johanna08', target: '_blank' },
-	          _react2.default.createElement(_FontIcon2.default, {
-	            className: 'fa fa-github',
-	            style: styles.icon,
-	            color: _colors.grey50,
-	            hoverColor: _colors.grey400
-	          })
-	        ),
-	        _react2.default.createElement(
-	          'a',
-	          { href: 'https://www.linkedin.com/in/johanna-perez', target: '_blank' },
-	          _react2.default.createElement(_FontIcon2.default, {
-	            className: 'fa fa-linkedin',
-	            style: styles.icon,
-	            color: _colors.grey50,
-	            hoverColor: _colors.grey400
-	          })
+	          'div',
+	          { style: styles.icons },
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.facebook.com/mightyluckystudio', target: '_blank' },
+	            _react2.default.createElement(_FontIcon2.default, {
+	              className: 'fa fa-facebook',
+	              style: styles.icon,
+	              color: _colors.grey50,
+	              hoverColor: _colors.grey800
+	            })
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.instagram.com/mightyluckystudio', target: '_blank' },
+	            _react2.default.createElement(_FontIcon2.default, {
+	              className: 'fa fa-instagram',
+	              style: styles.icon,
+	              color: _colors.grey50,
+	              hoverColor: _colors.grey800
+	            })
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://goo.gl/maps/hkaEWG2oawz', target: '_blank' },
+	            _react2.default.createElement(_FontIcon2.default, {
+	              className: 'fa fa-map-marker',
+	              style: styles.icon,
+	              color: _colors.grey50,
+	              hoverColor: _colors.grey800
+	            })
+	          )
 	        )
 	      )
 	    )
