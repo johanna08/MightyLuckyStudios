@@ -14,6 +14,7 @@ body {
   font-size: 13px;
   line-height: 20px;
   background: url('../images/mls1.jpg') center no-repeat,
+  background-color: #8FA0AD;
   height: 100vh;
   width: 100vw;
 }
