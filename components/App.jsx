@@ -34,7 +34,7 @@ function App() {
       <div style={styles.container}>
         <div className="main">
           <p style={styles.text}>Mighty Lucky Studio</p>
-          <div style={styles.icons}>
+          <div className="icons">
           <a href="https://www.facebook.com/mightyluckystudio" target="_blank">
             <FontIcon
               className="fa fa-facebook"

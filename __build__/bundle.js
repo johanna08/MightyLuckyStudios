@@ -28992,7 +28992,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { style: styles.icons },
+	          { className: 'icons' },
 	          _react2.default.createElement(
 	            'a',
 	            { href: 'https://www.facebook.com/mightyluckystudio', target: '_blank' },
