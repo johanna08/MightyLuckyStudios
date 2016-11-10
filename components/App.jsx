@@ -1,5 +1,4 @@
 import React from 'react';
-import FlatButton from 'material-ui/FlatButton';
 import FontIcon from 'material-ui/FontIcon';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -19,14 +18,10 @@ const styles = {
   },
   landing: {
     color: 'white',
-    paddingTop: 250,
   },
   icon: {
     fontSize: 36,
     padding: 5,
-  },
-  icons: {
-    paddingTop: 200,
   },
   text: {
     fontSize: 45,
@@ -37,7 +32,7 @@ function App() {
   return (
     <MuiThemeProvider muiTheme={muiTheme}>
       <div style={styles.container}>
-        <div style={styles.landing}>
+        <div className="main">
           <p style={styles.text}>Mighty Lucky Studio</p>
           <div style={styles.icons}>
           <a href="https://www.facebook.com/mightyluckystudio" target="_blank">

@@ -20,3 +20,11 @@ body {
 [data-reactroot] {
   height: 100vh !important; 
 }
+
+.main {
+  color: white;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
