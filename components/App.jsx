@@ -14,7 +14,7 @@ const styles = {
   container: {
     textAlign: 'center',
     fontSize: 20,
-    // background: "url('/images/mls2.jpg') center / cover",
+    background: "url('/images/mls2.jpg') center / cover",
   },
   landing: {
     color: 'white',
